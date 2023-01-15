@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" id="Definitions_0fr9mxs" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.6.0">
+  <bpmn:collaboration id="Collaboration_0xvsen5">
+    <bpmn:participant id="Participant_0aau4ya" name="Restaurant" processRef="pizza-delivery-process" />
+  </bpmn:collaboration>
+  <bpmn:process id="pizza-delivery-process" isExecutable="true">
+    <bpmn:laneSet id="LaneSet_187gznr">
+      <bpmn:lane id="Lane_1nwb31j" name="Customer">
+        <bpmn:flowNodeRef>StartEvent_1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_10lfrn2</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_0oy605q" name="Waiter" />
+      <bpmn:lane id="Lane_1bdl1by" name="Chef" />
+    </bpmn:laneSet>
+    <bpmn:startEvent id="StartEvent_1" />
+    <bpmn:task id="Activity_10lfrn2" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_0xvsen5">
+      <bpmndi:BPMNShape id="Participant_0aau4ya_di" bpmnElement="Participant_0aau4ya" isHorizontal="true">
+        <dc:Bounds x="160" y="80" width="600" height="640" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_1nwb31j_di" bpmnElement="Lane_1nwb31j" isHorizontal="true">
+        <dc:Bounds x="190" y="80" width="570" height="260" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_0oy605q_di" bpmnElement="Lane_0oy605q" isHorizontal="true">
+        <dc:Bounds x="190" y="340" width="570" height="260" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_1bdl1by_di" bpmnElement="Lane_1bdl1by" isHorizontal="true">
+        <dc:Bounds x="190" y="600" width="570" height="120" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
+        <dc:Bounds x="289" y="122" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_10lfrn2_di" bpmnElement="Activity_10lfrn2">
+        <dc:Bounds x="360" y="100" width="100" height="80" />
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
