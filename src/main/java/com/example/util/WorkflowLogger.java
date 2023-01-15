@@ -1,4 +1,4 @@
-package com.example.workflow.util;
+package com.example.util;
 
 import org.slf4j.Logger;
 

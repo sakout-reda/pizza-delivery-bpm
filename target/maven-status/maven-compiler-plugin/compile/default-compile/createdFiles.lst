@@ -1,2 +1,4 @@
+com\example\configuration\SwaggerConfig.class
+com\example\util\Constants.class
 com\example\workflow\Application.class
-com\example\workflow\configuration\SwaggerConfig.class
+com\example\util\WorkflowLogger.class

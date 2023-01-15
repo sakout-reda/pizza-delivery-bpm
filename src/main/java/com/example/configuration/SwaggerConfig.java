@@ -1,4 +1,4 @@
-package com.example.workflow.configuration;
+package com.example.configuration;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Contact;

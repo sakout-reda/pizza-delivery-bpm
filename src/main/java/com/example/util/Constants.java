@@ -1,4 +1,4 @@
-package com.example.workflow.util;
+package com.example.util;
 
 /**
  * @implSpec Constants class used to maintain constants used in project
