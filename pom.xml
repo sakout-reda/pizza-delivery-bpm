@@ -59,6 +59,13 @@
       <groupId>com.h2database</groupId>
       <artifactId>h2</artifactId>
     </dependency>
+    <!--Dependency for Swagger 3-->
+    <dependency>
+      <groupId>org.springdoc</groupId>
+      <artifactId>springdoc-openapi-ui</artifactId>
+      <version>1.4.8</version>
+    </dependency>
+
 
   </dependencies>
 

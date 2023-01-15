@@ -1,1 +1,2 @@
 com\example\workflow\Application.class
+com\example\workflow\configuration\SwaggerConfig.class
